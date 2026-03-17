@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ec_bypass",
+  "version": "1.0.0",
+  "name": "EC Bypass",
+  "description": "Opens enderchest client-side while in combat.",
+  "authors": ["YourName"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ecbypass.EcBypassMod"
+    ],
+    "client": [
+      "com.ecbypass.EcBypassClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}
